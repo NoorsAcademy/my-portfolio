@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio - Noor Mohamed</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f6f8;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: navy;
+        color: white;
+        text-align: center;
+        padding: 30px;
+      }
+
+      .profile-photo {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid white;
+        margin-bottom: 15px;
+      }
+
+      nav {
+        background-color: lightgray;
+        text-align: center;
+        padding: 12px;
+      }
+      nav a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 10px;
+        padding: 8px 12px;
+        border-radius: 5px;
+      }
+
+      nav a:hover {
+        background-color: navy;
+        color: white;
+      }
+      section {
+        background-color: white;
+        border: 1px solid #cccccc;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      header h1 {
+        margin: 10px 0 5px 0;
+      }
+      header p {
+        font-size: 18px;
+        margin: 0;
+      }
+
+      h2 {
+        color: navy;
+      }
+      .important {
+        color: red;
+        font-weight: bold;
+      }
+      .skill {
+        background-color: #e8f0ff;
+        padding: 6px 10px;
+        margin: 5px;
+        display: inline-block;
+        border-radius: 5px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th {
+        background-color: navy;
+        color: white;
+        padding: 10px;
+      }
+      td {
+        padding: 10px;
+        text-align: center;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid gray;
+      }
+
+      #contact {
+        background-color: #fff8dc;
+      }
+      footer {
+        background-color: navy;
+        color: white;
+        text-align: center;
+        padding: 12px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="images/photo.jpg"
+        alt="My Profile Photo"
+        class="profile-photo"
+      />
+      <h1>My Portfolio</h1>
+      <p>I am a <span class="important">Python Full Stack</span> Student</p>
+    </header>
+    <nav>
+      <a href="">About</a>
+      <a href="">Skills</a>
+      <a href="">Education</a>
+      <a href="">Contact</a>
+    </nav>
+    <main>
+      <section id="about">
+        <h2>About me</h2>
+        <p>
+          My name is Noor Mohamed. I am learning Python Full Stack Development
+          at <span class="important">Noors Academy</span>.
+        </p>
+        <p>
+          I have already completed Python, MySQL, GitHub and HTML. Now I am
+          learning CSS to design beautiful web pages.
+        </p>
+      </section>
+      <section id="skills">
+        <h2>My Skills</h2>
+        <span class="skill">Python</span>
+        <span class="skill">MySQL</span>
+        <span class="skill">GitHub</span>
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+      </section>
+      <section id="education">
+        <h2>Course Progress</h2>
+        <table>
+          <tr>
+            <th>Topic</th>
+            <th>Status</th>
+            <th>Remarks</th>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Completed</td>
+            <td>Practice with programs</td>
+          </tr>
+          <tr>
+            <td>MySQL</td>
+            <td>Completed</td>
+            <td>Used with student management proejct</td>
+          </tr>
+          <tr>
+            <td>Git Hub</td>
+            <td>Completed</td>
+            <td>Used for collaboration</td>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>Completed</td>
+            <td>Created portfolio page</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Learning now</td>
+            <td>Desiging this portfolio page.</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: abcd@example.com</p>
+        <p>Location: Parangipettai</p>
+        <p>Course: Python Full Stack Development</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Created by Noors Academy Student.</p>
+    </footer>
+  </body>
+</html>
