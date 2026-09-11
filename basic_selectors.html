@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: red;
+        }
+        .highlight {
+            color:green;
+        }
+        #about {
+            background-color: aqua;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1 {
+            color: navy;
+        }
+   
+        h1, h2 , h3 {
+            color: navy;
+        }
+        section p {
+            color: blue;
+        }
+
+        section > p {
+            color: purple;
+        }
+
+        h2 + p {
+            color: slateblue;
+        }
+
+        h2 ~ p {
+            color: orange;
+        }
+        a:hover {
+            color: red;
+         
+        }
+        a:visited {
+            color:cadetblue
+        }
+
+        
+    </style>
+</head>
+<body>
+  
+    <a href="https://google.com" target="_blank">Google</a>
+<a href="https://msn.com" target="_blank">Google Web</a>
+    <h2>About me</h2>
+    <p>This para comes imediately after h2.</p>
+    <p>this para is not imediately after h2.</p>
+
+
+    <section>
+        <p>This para is inside section.</p>
+        <div>
+            <p>This para is also inside section.</p>
+        </div>
+    </section>
+    <p>this para is outside section.</p>
+    <p>This is CSS selectors..</p>
+    <p class="highlight">Example text for element selector.</p>
+    <section id="about">
+        <h2>About Me</h2>
+    </section>
+    <h2>Heading2</h2>
+    <h4>Heading4</h4>
+</body>
+</html>
+<!--
+Basic Selectors:
+1. Element Selector
+2. Class Selector
+3. ID Selector
+4. Universal Selector
+5. Grouping Selector
+6. Relational Selector
+    1. Descendant Selector
+    2. Child Selection >
+    3. Adjacent Sibiling Selector +
+    4. General Sibling Selection ~
+11. Pseudo-Class Selector : (hover, first-chick, last-child, nth-child())
+12. Pseudo-Element Selector ::
+13. CSS Specificity
+
+
+-->
